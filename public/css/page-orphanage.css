@@ -3,40 +3,8 @@
   display: flex;
 }
 
-#page-orphanage aside.sidebar {
-  position: fixed;
-  height: 100%;
-  padding: 3.2rem 2.4rem;
-  background: #15c3d6;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-
-#page-orphanage aside.sidebar footer button {
-  width: 4.8rem;
-  height: 4.8rem;
-  border: none;
-  background: #12afcb;
-  border-radius: 1.6rem;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: background 200ms;
-}
-
-#page-orphanage aside.sidebar footer button:hover {
-  background-color: #17d6eb;
-}
-
-#page-orphanage main{
-    flex: 1;
-}
-
-.with-sidebar {
-  padding-left: 110px;
+#page-orphanage main {
+  flex: 1;
 }
 
 .orphanage-details {
@@ -99,32 +67,6 @@
   margin-top: 2.4rem;
 }
 
-.map-container {
-  margin-top: 6.4rem;
-  background: #e6f7fb;
-  border: 1px solid #b3dae2;
-  border-radius: 2rem;
-}
-
-#mapid {
-  width: 100%;
-  height: 28rem;
-}
-
-.map-container footer {
-  padding: 2rem 0;
-  text-align: center;
-}
-
-.map-container footer a {
-  color: #0089a5;
-  text-decoration: none;
-}
-
-.map-container .leaflet-container {
-  border-bottom: 1px solid #dde3f0;
-  border-radius: 2rem;
-}
 
 .orphanage-details-content hr {
   width: 100%;
@@ -151,8 +93,8 @@
   padding: 3.2rem 2.4rem;
 }
 .open-details img {
-    display: block;
-    margin-bottom: 2rem;
+  display: block;
+  margin-bottom: 2rem;
 }
 
 .open-details .hour {
@@ -167,28 +109,27 @@
   border: 1px solid #a1e9c5;
   border-radius: 20px;
   color: #37c77f;
-
 }
 
-.primary-button{
-    margin-top: 6.4rem;
-    width: 100%;
-    height: 6.4rem;
-    border: 0;
-    cursor: pointer;
-    background: #3cdc8c;
-    border-radius: 2rem;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background 200ms;
+.primary-button {
+  margin-top: 6.4rem;
+  width: 100%;
+  height: 6.4rem;
+  border: 0;
+  cursor: pointer;
+  background: #3cdc8c;
+  border-radius: 2rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 200ms;
 }
 
-.primary-button:hover{
-    background: #36cf82;
+.primary-button:hover {
+  background: #36cf82;
 }
 
-.primary-button img{
-    margin-right: 1.6rem;
+.primary-button img {
+  margin-right: 1.6rem;
 }
