@@ -32,7 +32,5 @@ function selectImage(event) {
 
     imageContainer.src = image.src;
 
-
     button.classList.add('active');
-
 }
